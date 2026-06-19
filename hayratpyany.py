@@ -11,10 +11,10 @@ from aiohttp import web  # Render uyg'oq turishi uchun veb-server
 load_dotenv()
 
 # SOZLAMALAR
-BOT_TOKEN = os.getenv('BOT_TOKEN', '8861403359:AAG_MS2Jw40UAjbkfsd4lDIbyeW29KXy37k')
-MY_CHANNEL = os.getenv('MY_CHANNEL', '@HAYRATLIOLAM') 
-api_id = int(os.getenv('API_ID', '36724951'))
-api_hash = os.getenv('API_HASH', '8115a28bf2d642a0062bb854e5cbebaf')
+BOT_TOKEN = os.getenv('BOT_TOKEN', '******************')
+MY_CHANNEL = os.getenv('MY_CHANNEL', '***********M') 
+api_id = int(os.getenv('API_ID', '********1'))
+api_hash = os.getenv('API_HASH', '***********')
 GEMINI_API_KEY = os.getenv('GEMINI_API_KEY')
 
 client = TelegramClient('ai_bot_session', api_id, api_hash)
